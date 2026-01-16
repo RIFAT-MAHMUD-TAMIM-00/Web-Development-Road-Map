@@ -1,0 +1,27 @@
+#go {
+  color: chocolate;
+}
+.front {
+  font-size: 30px;
+  color: brown;
+  text-align-last: left;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.back {
+  background-color: aquamarine;
+}
+.external {
+  height: 1000px;
+  background-image: url("/images/chair.jpg");
+  background-repeat: no-repeat;
+  font-size: xx-large ;
+}
+#noo{
+    width: 200px ;
+    color: crimson;
+    border: 10px solid black;
+    box-shadow: 20px 10px 5px gray;
+
+
+}

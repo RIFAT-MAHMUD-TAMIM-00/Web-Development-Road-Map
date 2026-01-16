@@ -1,0 +1,17 @@
+.blog {
+  background-color: aqua;
+}
+h2 {
+  text-decoration: underline;
+}
+#last {
+  background-color: brown;
+  /* display: none; */
+  /* visibility: hidden; */
+}
+#min {
+  color: red;
+  border: 5px solid green;
+  margin: 50px;
+  padding: 20px;
+}
