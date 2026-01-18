@@ -1,0 +1,24 @@
+body {
+  max-width: 1140px;
+  background-color: wheat;
+  margin: 0 auto;
+}
+.hero-banner {
+  display: flex;
+  background-color: aquamarine;
+  padding: 25px;
+  font-size: 1em;
+  align-items: center;
+  border-radius: 25px;
+}
+.hero-banner img {
+  width: 100%;
+  height: auto;
+}
+.hero-banner button{
+    background-color: orange;
+    font-size: 2em;
+    padding: 10px 20px;
+    border: none;
+
+}
