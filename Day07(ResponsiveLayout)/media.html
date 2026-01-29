@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .food{
+            border: 1px solid aqua;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media screen  and (max-width:576px){
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+            
+        }
+    </style>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -1</h3>
+            <p>price: $100</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -2</h3>
+            <p>price: $200</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -3</h3>
+            <p>price: $300</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -4</h3>
+            <p>price: $400</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -5</h3>
+            <p>price: $500</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -6</h3>
+            <p>price: $600</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -7</h3>
+            <p>price: $700</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -8</h3>
+            <p>price: $800</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -9</h3>
+            <p>price: $900</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -10</h3>
+            <p>price: $1000</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -11</h3>
+            <p>price: $1100</p>
+            <p class="lorem20"></p>
+        </div>
+        <div class="food">
+            <img src="./images/R.jpg" alt="">
+            <h3>food items -12</h3>
+            <p>price: $1200</p>
+            <p class="lorem20"></p>
+        </div>
+    </div>
+</body>
+</html>
