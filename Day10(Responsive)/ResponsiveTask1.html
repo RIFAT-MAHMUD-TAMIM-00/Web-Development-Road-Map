@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Responsive Flex Layout</title>
+    <style>
+        .container {
+            display :grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            border: 2px solid black;
+            
+            
+        }
+        .left {
+            background-color: lightblue;
+            /*width: 30%;*/
+            height: 500px;
+            border-radius: 10px;
+           
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            
+        }
+        .left p {
+            text-align: center;
+            font-size: 30px;
+            padding-top: 200px;
+        }
+        .right {
+            background-color: lightgreen;
+            /*width: 70%;*/
+            height: 500px;
+            border-radius: 10px;
+            margin: 20px;
+            
+        }
+        .right p {
+            text-align: center;
+            font-size: 30px;
+            padding-top: 200px;
+        }
+        @media screen and (max-width: 576px){
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            
+            <p>Left</p>
+
+            
+        </div>
+        <div class="right">
+            <p>Right</p>
+        </div>
+    </div>
+    
+</body>
+</html>
