@@ -30,3 +30,21 @@ footer{
                          "footer footer footer footer"
                          ;
 }
+@media screen and (max-width: 576px){
+    .container{
+        grid-template-areas:"header"
+                            "navbar"
+                            "main"
+                            "sidebar"
+                            "advertise"
+                            "footer";
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .container{
+        grid-template-areas:"header header"
+                            "navbar main"
+                            "sidebar advertise"
+                            "footer footer";
+    }
+}
