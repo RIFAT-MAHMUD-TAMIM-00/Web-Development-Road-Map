@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Dom</title>
+    <style>
+      h1 {
+        color: aqua;
+      }
+    </style>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>This is header no banner</h1>
+    </header>
+    <main>
+      <h1>welcome to my DOm</h1>
+      <ul>
+        <li>Safayet</li>
+        <li>Bonobash</li>
+        <li>Jalali Set</li>
+        <li>DOM de re baba</li>
+      </ul>
+    </main>
+    <script>
+      // console.log("hello from javascript")
+      // console.log("hello bole chole gelo")
+      // console.log("Document Object Model=DOM")
+      const student = {
+        name: "Abul Mia",
+        id: 121,
+        study: function (subject) {
+          console.log("Studing Subject: ", sub);
+        },
+      };
+    //   document.getElementsByTagName;
+    const liCollection= document.getElementsByTagName("li");
+    console.log(liCollection);
+    for(const li of liCollection){
+        console.log(li.innerText);
+
+    }
+    </script>
+    <script src="./js/hello.js"></script>
+  </body>
+</html>
