@@ -8,6 +8,12 @@
       h1 {
         color: aqua;
       }
+      #food-section-title{
+        color:green;
+      }
+      .food .foreign{
+        font-weight: bold;
+      }
     </style>
     <link rel="stylesheet" href="./style/style.css" />
   </head>
@@ -16,13 +22,31 @@
       <h1>This is header no banner</h1>
     </header>
     <main>
-      <h1>welcome to my DOm</h1>
-      <ul>
-        <li>Safayet</li>
-        <li>Bonobash</li>
-        <li>Jalali Set</li>
-        <li>DOM de re baba</li>
-      </ul>
+      <section id="puran-dhaka" class="songs">
+        <h1>welcome to my DOm</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, ratione.</p>
+        <h1>My Favorite Band<span>some text</span></h1>
+        <ul>
+          <li>Safayet</li>
+          <li id="Bonobash">Bonobash</li>
+          <li>Jalali Set</li>
+          <li>DOM de re baba</li>
+        </ul>
+      </section>
+
+      <section class="food">
+        <h1 id="food-section-title">Food I Love</h1>
+        <ul>
+          <li class="foreign">Rice</li>
+          <li class="foreign">Chicken</li>
+          <li class="foreign">Beef</li>
+          <li class="foreign">Fish</li>
+          <li class="foreign">Vegetables</li>
+          <li class="foreign">Fruits</li>
+          <li class="foreign">Lentils</li>
+        </ul>
+      </section>
+
     </main>
     <script>
       // console.log("hello from javascript")
@@ -42,6 +66,14 @@
         console.log(li.innerText);
 
     }
+
+    const fooodTitleH1=document.getElementById("food-section-title");
+    console.log(fooodTitleH1.innerText);
+
+
+    const bandElement=document.getElementById("Bonobash");
+    bandElement.innerText="Jalali band inner";
+
     </script>
     <script src="./js/hello.js"></script>
   </body>
